@@ -18,7 +18,6 @@ class people::rozza {
 
   #include virtualbox
   #include vagrant
-  include ohmyzsh
 
   $my_home  = "/Users/${::luser}"
   $projects = "${my_home}/vagrant/code/rozza"
