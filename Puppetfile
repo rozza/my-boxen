@@ -64,7 +64,7 @@ github "iterm2",          "1.0.1"
 github "slate",           "1.0.0"
 github "wget",            "1.0.0"
 
-github "sublime_text_2",  "1.0.1"
+github "sublime_text",    "1.0.1"
 github "intellij",        "1.1.2"
 
 github "virtualbox",      "1.0.1"
