@@ -65,7 +65,7 @@ github "slate",           "1.0.0"
 github "wget",            "1.0.0"
 
 github "sublime_text",    "1.0.1"
-github "intellij",        "1.1.2"
+github "intellij",        "1.5.1"
 
 github "virtualbox",      "1.0.1"
 github "vagrant",         "1.0.0"
@@ -77,3 +77,4 @@ github "osx",             "1.0.0"
 github "skype",           "1.0.0"
 #github "spotify",         "1.0.0"
 github "zsh",             "1.0.0"
+github "ohmyzsh"          "1.0.0", :repo => "erivello/puppet-ohmyzsh"

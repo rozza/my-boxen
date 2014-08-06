@@ -114,11 +114,6 @@ GITHUBTARBALL
     slate (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-spotify
-  specs:
-    spotify (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-sublime_text
   specs:
     sublime_text (1.0.1)
@@ -194,7 +189,6 @@ DEPENDENCIES
   ruby (= 8.1.2)
   skype (= 1.0.0)
   slate (= 1.0.0)
-  spotify (= 1.0.0)
   stdlib (= 4.2.1)
   sublime_text (= 1.0.1)
   sudo (= 1.0.0)
