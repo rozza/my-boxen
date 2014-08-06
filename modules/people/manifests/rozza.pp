@@ -2,7 +2,6 @@ class people::rozza {
 
   include iterm2::dev
   include slate
-  include turn-off-dashboard
   include wget
   include zsh
 
