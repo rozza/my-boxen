@@ -9,7 +9,6 @@ class people::rozza {
   include chrome
   include dropbox
   include skype
-  include spotify
   include sublime_text
 
   class { 'intellij':
