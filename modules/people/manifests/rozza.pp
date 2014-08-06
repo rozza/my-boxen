@@ -16,8 +16,8 @@ class people::rozza {
      version => '13.1.1'
   }
 
-  include virtualbox
-  include vagrant
+  #include virtualbox
+  #include vagrant
   include ohmyzsh
 
   $my_home  = "/Users/${::luser}"
