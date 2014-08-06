@@ -9,16 +9,16 @@ class people::rozza {
   include chrome
   include dropbox
   include skype
-  include spotify
 
   include sublime_text
 
   class { 'intellij':
     edition => 'ultimate',
+     version => '13.1.1'
   }
 
-  include virtualbox
-  include vagrant
+  #include virtualbox
+  #include vagrant
 
   $my_home  = "/Users/${::luser}"
   $projects = "${my_home}/vagrant/code/rozza"
