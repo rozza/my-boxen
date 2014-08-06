@@ -61,18 +61,18 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "iterm2",          "1.0.1"
-github "slate",           "1.0.0"
-github "wget",            "1.0.0"
+github "slate",           "1.0.1"
+github "wget",            "1.0.1"
 
 github "sublime_text",    "1.0.1"
 github "intellij",        "1.5.1"
 
-github "virtualbox",      "1.0.1"
-github "vagrant",         "1.0.0"
+github "virtualbox",      "1.0.9"
+github "vagrant",         "3.1.1"
 
-github "adium",           "1.0.1"
-github "chrome",          "1.0.0"
-github "dropbox",         "1.0.0"
-github "osx",             "1.0.0"
-github "skype",           "1.0.0"
+github "adium",           "1.4.0"
+github "chrome",          "1.1.2"
+github "dropbox",         "1.3.0"
+github "osx",             "2.7.0"
+github "skype",           "1.0.8"
 github "zsh",             "1.0.0"
