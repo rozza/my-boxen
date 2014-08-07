@@ -8,6 +8,7 @@ class people::rozza {
   include adium
   include chrome
   include dropbox
+  include flowdock
   include skype
   include sublime_text
 
