@@ -20,6 +20,17 @@ class people::rozza {
   include virtualbox
   include vagrant
 
+  #
+  # Remove services we don't want
+  #
+  service {"dev.nginx":
+      ensure => "stopped",
+  }
+
+  service {"dev.dnsmasq":
+      ensure => "stopped",
+  }
+
   $my_home  = "/Users/${::luser}"
   $projects = "${my_home}/vagrant/code/rozza"
 
