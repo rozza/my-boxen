@@ -1,7 +1,6 @@
 class people::rozza {
 
   include iterm2::dev
-  include slate
   include wget
   include zsh
 
@@ -10,12 +9,6 @@ class people::rozza {
   include dropbox
   include flowdock
   include skype
-  include sublime_text
-
-  class { 'intellij':
-    edition => 'ultimate',
-     version => '13.1.1'
-  }
 
   include virtualbox
   include vagrant
