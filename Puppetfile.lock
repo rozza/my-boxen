@@ -1,32 +1,17 @@
 GITHUBTARBALL
-  remote: boxen/puppet-adium
-  specs:
-    adium (1.4.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.6.2)
+    boxen (3.10.4)
 
 GITHUBTARBALL
-  remote: boxen/puppet-chrome
+  remote: boxen/puppet-brewcask
   specs:
-    chrome (1.1.2)
+    brewcask (0.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-flowdock
-  specs:
-    flowdock (1.0.0)
+    dnsmasq (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -36,47 +21,37 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.1.1)
+    gcc (2.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.5.0)
+    git (2.7.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
-    go (1.1.0)
+    go (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.4)
+    homebrew (1.12.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-intellij
-  specs:
-    intellij (1.5.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-iterm2
-  specs:
-    iterm2 (1.0.1)
+    hub (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.3)
+    nginx (1.4.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.8.1)
+    nodejs (4.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -84,14 +59,9 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-osx
-  specs:
-    osx (2.7.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.3.0)
+    phantomjs (2.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -101,27 +71,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
-    repository (2.3.0)
+    repository (2.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.1.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-skype
-  specs:
-    skype (1.0.8)
-
-GITHUBTARBALL
-  remote: boxen/puppet-slate
-  specs:
-    slate (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-sublime_text
-  specs:
-    sublime_text (1.0.1)
+    ruby (8.5.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -129,34 +84,14 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vagrant
-  specs:
-    vagrant (3.1.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.9)
-
-GITHUBTARBALL
-  remote: boxen/puppet-wget
-  specs:
-    wget (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.1.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-zsh
-  specs:
-    zsh (1.0.0)
+    xquartz (1.2.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (1.0.3)
+    inifile (1.1.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -169,38 +104,25 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  adium (= 1.4.0)
-  boxen (= 3.6.2)
-  chrome (= 1.1.2)
-  dnsmasq (= 1.0.1)
-  dropbox (= 1.3.0)
-  flowdock (= 1.0.0)
+  boxen (= 3.10.4)
+  brewcask (= 0.0.6)
+  dnsmasq (= 2.0.1)
   foreman (= 1.2.0)
-  gcc (= 2.1.1)
-  git (= 2.5.0)
-  go (= 1.1.0)
-  homebrew (= 1.9.4)
-  hub (= 1.3.0)
-  inifile (= 1.0.3)
-  intellij (= 1.5.1)
-  iterm2 (= 1.0.1)
+  gcc (= 2.2.1)
+  git (= 2.7.9)
+  go (= 2.1.0)
+  homebrew (= 1.12.0)
+  hub (= 1.4.1)
+  inifile (= 1.1.1)
   module_data (= 0.0.3)
-  nginx (= 1.4.3)
-  nodejs (= 3.8.1)
+  nginx (= 1.4.5)
+  nodejs (= 4.0.1)
   openssl (= 1.0.0)
-  osx (= 2.7.0)
-  phantomjs (= 2.3.0)
+  phantomjs (= 2.4.0)
   pkgconfig (= 1.0.0)
-  repository (= 2.3.0)
-  ruby (= 8.1.2)
-  skype (= 1.0.8)
-  slate (= 1.0.1)
+  repository (= 2.4.1)
+  ruby (= 8.5.2)
   stdlib (= 4.2.1)
-  sublime_text (= 1.0.1)
   sudo (= 1.0.0)
-  vagrant (= 3.1.1)
-  virtualbox (= 1.0.9)
-  wget (= 1.0.1)
-  xquartz (= 1.1.1)
-  zsh (= 1.0.0)
+  xquartz (= 1.2.1)
 
